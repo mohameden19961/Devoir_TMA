@@ -72,9 +72,9 @@ axes3[1,1].set_ylabel("|FFT|")
 axes3[1,1].grid(True, alpha=0.4)
 
 plt.tight_layout()
-plt.savefig("TP3_aliasing_final.png", dpi=150)
+plt.savefig("TP/TP3/TP3_aliasing.png", dpi=150)
 plt.close()
-print("→ Partie 1 sauvegardée : TP3_aliasing_final.png")
+print("→ Partie 1 sauvegardée : TP3_aliasing.png")
 
 # ============================================================
 # Partie 2 : Quantification et Pixelisation d'image
@@ -129,7 +129,7 @@ axes4[1,1].set_title("Pixelisation (÷8, nearest neighbor)")
 axes4[1,1].axis("off")
 
 plt.tight_layout()
-plt.savefig("TP/TP3/TP3_quantification_final.png", dpi=150)
+plt.savefig("TP/TP3/TP3_quantification.png", dpi=150)
 plt.close()
 print("→ Partie 2 sauvegardée : TP3_quantification.png")
 
